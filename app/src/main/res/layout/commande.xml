@@ -95,7 +95,7 @@
 
 
     <Button
-        android:id="@+id/MyButton5"
+        android:id="@+id/quitter"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:padding="20dp"
@@ -106,7 +106,8 @@
         android:layout_below="@+id/relativeLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-    />
+        android:onClick="Quitter"
+        />
 
 
 </RelativeLayout>
